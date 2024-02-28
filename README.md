@@ -1,4 +1,4 @@
-# mega_sena_java
+# Mega_sena_java
 Um simulador de palpites da Mega-Sena. A ideia é permitir que o usuário faça seu palpite de seis números, que serão comparados com seis números aleatoriamente gerados pelo programa, simulando um sorteio da Mega-Sena. O objetivo é trabalhar com ArrayList do Java para analisar e comparar dados inseridos nos Arrays.
 
 ### Criando um Projeto Java no NetBeans e Utilizando ArrayList
@@ -44,3 +44,14 @@ public class ExemploArrayList {
     }
 }
 
+#### Exemplo 2: Inserir números aleatórios dentro de um ArrayList, utilizando o método Math.random().
+
+```java
+
+ArrayList<Integer> numerosAleatorios = new ArrayList<>();
+int tamanhoDesejado = 10; // Número de elementos que você quer no ArrayList
+
+for (int i = 0; i < tamanhoDesejado; i++) {
+    int numero = (int) (Math.random() * 100); // Gera um número aleatório entre 0 e 99
+    numerosAleatorios.add(numero);
+}
