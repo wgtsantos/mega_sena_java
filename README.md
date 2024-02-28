@@ -43,6 +43,7 @@ public class ExemploArrayList {
         System.out.println(lista);
     }
 }
+```
 
 #### Exemplo 2: Inserir números aleatórios dentro de um ArrayList, utilizando o método Math.random().
 
