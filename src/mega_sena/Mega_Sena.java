@@ -34,7 +34,7 @@ public class Mega_Sena {
         
        Scanner ler = new Scanner(System.in);
        
-       System.out.println("Bem ao Sistema de Palpites da Mega-Sena");
+       System.out.println("Bem vindo ao Sistema de Palpites da Mega-Sena");
        System.out.println("Por favor, Informe seu Palpite de 6 Números:");
        
         for (int i = 1; i < 7; i++) {
@@ -88,7 +88,7 @@ public class Mega_Sena {
                 break;
             case 4:
                 System.out.println("Parabéns!! Você acertou " + acertos + " números!");
-                System.out.println("Se isso fosse real, teria feita a quadra e garantia um dinheiro extra!");
+                System.out.println("Se isso fosse real, teria feito a quadra e garantia um dinheiro extra!");
                 System.out.println("Infelizmente não é! Você segue pobre!");
                 break;
             case 3:
